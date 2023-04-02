@@ -1,0 +1,116 @@
+
+.ContenedorCard {
+    width: 570px;
+    height: 850px;
+    margin-left: 100px;
+    background: linear-gradient(145deg, #FFFFFF, #D0D1D5);
+    border-radius: 50px;
+    box-shadow: 10.21px 10.21px 25px #77787A, -10.21px -10.21px 25px #FFFFFF;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.neumorphic-table {
+    width: 1160px;
+    height: 600px;
+    position: relative;
+    margin-left: 50px;
+    background: linear-gradient(145deg, #FFFFFF, #D0D1D5);
+    border-radius: 50px;
+    box-shadow: 10.21px 10.21px 25px #77787A, -10.21px -10.21px 25px #FFFFFF;
+}
+
+
+
+  table{
+    margin-left: 28px;
+    width: 1099px;
+
+ 
+
+  }
+  
+  .neumorphic-table th,
+  .neumorphic-table td {
+    padding: 1rem;
+    text-align: center;
+ 
+   
+ 
+  }
+  
+  .neumorphic-table th {
+    background-color: #e6e6e6;
+    box-shadow: 3px 3px 6px #b7b7b7, -3px -3px 0px #ffffff;
+
+    
+  
+  }
+  
+  .neumorphic-table td {
+    background-color: #ececec;
+    box-shadow: inset 3px 3px 6px #b7b7b7, inset -3px -3px 6px #ffffff;
+
+  }
+  
+  .neumorphic-table tr:last-child td:first-child {
+    border-bottom-left-radius: 1rem;
+  }
+  
+  .neumorphic-table tr:last-child td:last-child {
+    border-bottom-right-radius: 1rem;
+  }
+
+  .btns{
+    width: 100px;
+    height: 2.3em;
+    margin: 5px;
+    margin-top: 0px;
+    background: rgb(160, 66, 66);
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+  }
+  .btnss{
+    width: 100px;
+    height: 2.3em;
+    margin-top: 28px;
+    margin-left: 10px;
+ 
+    background: rgb(160, 66, 66);
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+  }
+  .groupbtn{
+    margin-left: 20px;
+  }
+  .a{
+    width: 10.5em;
+    height: 2.3em;
+    margin-top: 10px;
+   }
+   
+
+  .btnsdisabled{
+  
+    background-color: rgb(235, 183, 183);
+  
+  }
+
+  .neumorphic-pagination-info{
+    margin-left: 400px;
+    margin-top: -20px;
+  }
+
+
+
+  

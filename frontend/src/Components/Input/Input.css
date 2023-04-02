@@ -1,0 +1,76 @@
+.input {
+    width: 300px;
+ 
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #e8e8e8;
+    box-shadow: 6px 6px 12px #ffffff,
+        -6px -6px 12px #c5c5c5;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.input:focus {
+    outline-color: rgb(162, 162, 162);
+    place-content: "Enter your message!";
+}
+
+.microfono{
+    width: 100px;
+    height: 2.3em;
+    margin: 20px;
+    margin-top: 0px;
+    background: rgb(112, 112, 112);
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+  }
+
+  
+  .error {
+    border: 2px solid rgb(235, 132, 132);
+  }
+  .success {
+    border: 2px solid rgb(132, 235, 177);
+  }
+  
+  .error-msg {
+    color: rgb(240, 109, 109);
+    margin-left: -350px;
+  }
+  .mensaje{   
+    font-size: 15px;
+    color: #04633e;
+    margin-left: 150px; 
+   }
+   .recording{
+    background-color: #99f2c44f;
+}
+.recordingColor{
+    background-color: #40795c;
+}
+
+
+.invalid {
+    border: 1px solid rgb(43, 8, 237);
+  }
+
+   .neumorphic-table input[type="text"] {
+    background-color: #e0e5ec;
+    outline: none;
+    border-color: rgb(229, 229, 229);
+    border-radius: 25px;
+    box-shadow: inset 10px 10px 15px #cfcfcf, inset -10px -10px 15px #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+    margin-left: 700px;
+    margin-top: 20px;
+  }

@@ -1,0 +1,33 @@
+.button {
+    font-size: 16px;
+    position: relative;
+    margin: auto;
+    padding: 1em 2.5em 1em 2.5em;
+    border: none;
+
+    transition: all 0.1s linear;
+    box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+   }
+   
+   .button:active {
+    transform: scale(0.95);
+   }
+   
+  
+   
+   .button .border {
+    position: absolute;
+    
+    transition: all 0.3s 0.08s linear;
+    top: 50%;
+    left: 50%;
+    
+    height: 3em;
+    transform: translate(-50%, -50%);
+   }
+   
+
+   
+   .full-rounded {
+    border-radius: 2em;
+   }
