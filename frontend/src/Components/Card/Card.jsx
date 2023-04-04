@@ -5,7 +5,9 @@ import { Input, MensajeCampo } from "../Input/Input";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
+
 export const Card = () => {
+  
 /*************************************************************************************************************************/
 /*************************************************************************************************************************/
 /*************************************************************************************************************************/
@@ -193,9 +195,10 @@ const handleSubmit = async (e) => {
       );
     
       if (usuarioRegistrado) {
+        const datosUsuario = usuarioRegistrado;
         console.log(empleados);
-        setMensaje("Este usuario ya está registrado");
-        return;
+        setMensaje(`El empleado:(${datosUsuario.dni}) ${datosUsuario.nombre} ${datosUsuario.apellido} está registrado con el email:(${datosUsuario.email})`);
+        return ;
       }
     
   if (!nombreRegex.test(nombre)) {

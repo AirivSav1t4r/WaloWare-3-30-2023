@@ -1,13 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { Card } from './Components/Card/Card';
+
 import { Empleado } from './Pages/Empleado/Empleado';
+import Sidebar from './Components/Sidebar/Sidebar';
+
+
+
+import { BrowserRouter, Route, Redirect } from "react-router-dom";
+
+
+
+
 
 
 function App() {
   return (
   <>
-  <Empleado></Empleado>
+
 
   </>
   );

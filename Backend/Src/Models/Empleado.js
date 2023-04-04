@@ -22,7 +22,7 @@ export const Empleado=Datasequelize.define('Empleado',{
         type:DataTypes.INTEGER(9)
     },
     dni:{
-        type:DataTypes.INTEGER(8)
+        type:DataTypes.STRING(8)
     },
 },{
     timestamps:false
